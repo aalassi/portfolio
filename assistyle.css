@@ -1,0 +1,151 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+
+.w3-center a {
+    text-decoration: none;
+
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 5px;
+    font-size: 10px;
+    
+    
+    text-decoration: none;
+    margin-right: 5px;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+   background-color: black;
+   color: white;
+   border: solid bottom 1px;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+   
+    color: rgb(0, 0, 0);
+  }
+
+  .fa-instagram {
+    
+    color: rgb(0, 0, 0);
+  }
+
+  
+  
+  /* Twitter */
+  .fa-twitter {
+    
+    color: rgb(0, 0, 0);
+  }
+
+
+/* slider V */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+    max-width:1200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    text-align: right;
+    background-color: rgb(28, 208, 214);
+  }
+  .mySlides i {
+      
+      position: absolute;
+      top: 45px;
+      left: 0;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  /*end slider V */
