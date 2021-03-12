@@ -60,6 +60,17 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
     margin-left: auto;
   }
 
+  #breakME{
+   width: 100%;
+    font-size : 100px;
+    color: rgb(0, 0, 0);
+  }
+  #breakME2{
+width: 100%;    font-size: 100px;
+    color: rgb(0, 0, 0);
+    
+  }
+
   
   
   /* Hide the images by default */
@@ -71,6 +82,11 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
   #IMgallery {
    color: white;
     background-color: rgb(142, 30, 165);
+  }
+
+  #portrait {
+    color: white;
+    background-color: rgb(136, 163, 15);
   }
   .mySlides i {
       
