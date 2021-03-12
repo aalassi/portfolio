@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Ahmad Al Assi</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -9,15 +9,26 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
+<!--slider-->
+<link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+
+<!--slider-->
+
+
+
+
+
 
 <body>
 
 <!-- Sidebar (hidden by default) -->
 <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()"
-  class="w3-bar-item w3-button">Close Menu</a>
+  class="w3-bar-item w3-button">Menü schließen</a>
   <a href="#videos" onclick="w3_close()" class="w3-bar-item w3-button">Videos</a>
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+  <a href="moreV.html" onclick="w3_close()" class="w3-bar-item w3-button">mehr Videos</a>
+
 </nav>
 
 <!-- Top menu -->
@@ -64,12 +75,16 @@
 
   <div class="mySlides">
     <div class="numbertext">5 / 6</div>
-    <iframe width="100%" height="300" src="https://www.youtube.com/embed/GdzNK_rLQc0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="300" src="https://www.youtube.com/embed/5KmjguTcywo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 
   <div class="mySlides">
     <div class="numbertext">6 / 6</div>
-    <iframe width="100%" height="300" src="https://www.youtube.com/embed/GdzNK_rLQc0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="300" src="https://www.youtube.com/embed/ETA8jtpEep0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">more Videos</div>
+    <p>mehr Videos  <br>klicke <a href="moreV.html">hier <span class="iconify" data-icon="fa-video-camera" data-inline="false"></span></a> <br></p>
   </div>
 
   <!-- Next and previous buttons -->
@@ -84,26 +99,32 @@
   <!-- Thumbnail images -->
   <div class="row">
     <div class="column">
-      <img class="demo cursor" src="/img/chaosTemp.webp" style="width:100%" onclick="currentSlide(1)" alt="Blink your eyes 'n' roll back some flashes .. Chaos in the brain !
+      <img class="demo cursor" src="/img/chaosTemp.jpg" style="width:100%" onclick="currentSlide(1)" alt="Blink your eyes 'n' roll back some flashes .. Chaos in the brain !
       ">
     </div>
     <div class="column">
-      <img class="demo cursor" src="/img/shortPrev.webp" style="width:100%" onclick="currentSlide(2)" alt="short preview of my brain when i sleep with headphones on 😴😎🎧">
+      <img class="demo cursor" src="/img/shortPrev.jpg" style="width:100%" onclick="currentSlide(2)" alt="short preview of my brain when i sleep with headphones on 😴😎🎧">
     </div>
     <div class="column">
-      <img class="demo cursor" src="/img/sport.webp" style="width:100%" onclick="currentSlide(3)" alt="You can do it too 💪🏻🏃🏻 just TRying TO SPread SOme MOtivation 😁
+      <img class="demo cursor" src="/img/sport.jpg" style="width:100%" onclick="currentSlide(3)" alt="You can do it too 💪🏻🏃🏻 just TRying TO SPread SOme MOtivation 😁
       ">
     </div>
     <div class="column">
-      <img class="demo cursor" src="/img/poznan.webp" style="width:100%" onclick="currentSlide(4)" alt="Poznan ! Lovely city in great Poland !
+      <img class="demo cursor" src="/img/poznan.jpg" style="width:100%" onclick="currentSlide(4)" alt="Poznan ! Lovely city in great Poland !
       ">
     </div>
     <div class="column">
-      <img class="demo cursor" src="img_nature.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+      <img class="demo cursor" src="/img/munich.jpg" style="width:100%" onclick="currentSlide(5)" alt="On the way back with my cousin , bye bye munich
+      ">
     </div>
     <div class="column">
-      <img class="demo cursor" src="img_snow.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+      <img class="demo cursor" src="/img/Mainz.jpg" style="width:100%" onclick="currentSlide(6)" alt="Mainz">
     </div>
+    <div class="column">
+      <img class="demo cursor" alt="" style="width:100%" onclick="currentSlide(7)">
+    </div>
+  
+
   </div>
 </div>
       </div>
@@ -119,6 +140,79 @@
     <!-- Container for the image gallery -->
 
   </div>
+
+
+  <!--my images -->
+  <div class="container" id="IMgallery">
+    <!--nightPh starts-->
+    <i class='fas fa-video' style='font-size:24px'><span class="iconify" data-icon="ic:baseline-mode-night" data-inline="false"></span> <br>Night Photography  </i>
+    <div class="amazingslider-wrapper" id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:600px;margin:0px auto 88px;">
+      <div class="amazingslider" id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+          <ul class="amazingslider-slides" style="display:none;">
+              <li><a href="images/1-lightbox.jpg" class="html5lightbox"><img src="images/1.png" alt="1"  title="1" /></a>
+              </li>
+              <li><a href="images/4-lightbox.jpg" class="html5lightbox"><img src="images/4.png" alt="4"  title="4" /></a>
+              </li>
+              <li><a href="images/5-lightbox.jpg" class="html5lightbox"><img src="images/5.png" alt="5"  title="5" /></a>
+              </li>
+              <li><a href="images/burj2-lightbox.jpg" class="html5lightbox"><img src="images/burj2.png" alt="burj2"  title="burj2" /></a>
+              </li>
+              <li><a href="images/DSC_0403-lightbox.jpg" class="html5lightbox"><img src="images/DSC_0403.png" alt="DSC_0403"  title="DSC_0403" /></a>
+              </li>
+              <li><a href="images/DSC_3210-lightbox.jpg" class="html5lightbox"><img src="images/DSC_3210.png" alt="DSC_3210"  title="DSC_3210" /></a>
+              </li>
+              <li><a href="images/DSC_3235-lightbox.jpg" class="html5lightbox"><img src="images/DSC_3235.png" alt="DSC_3235"  title="DSC_3235" /></a>
+              </li>
+              <li><a href="images/DSC_5252-lightbox.jpg" class="html5lightbox"><img src="images/DSC_5252.png" alt="DSC_5252"  title="DSC_5252" /></a>
+              </li>
+              <li><a href="images/DSC_5279-lightbox.jpg" class="html5lightbox"><img src="images/DSC_5279.png" /></a>
+              </li>
+              <li><a href="images/DSC_5299-lightbox.jpg" class="html5lightbox"><img src="images/DSC_5299.png" /></a>
+              </li>
+              <li><a href="images/DSC_5311-lightbox.jpg" class="html5lightbox"><img src="images/DSC_5311.png" /></a>
+              </li>
+              <li><a href="images/DSC_9739-lightbox.jpg" class="html5lightbox"><img src="images/DSC_9739.png" /></a>
+              </li>
+              <li><a href="images/IMG_4293-lightbox.jpg" class="html5lightbox"><img src="images/IMG_4293.png" /></a>
+              </li>
+              <li><a href="images/Untitled_HDR2-lightbox.jpg" class="html5lightbox"><img src="images/Untitled_HDR2.png" /></a>
+              </li>
+              <li><a href="images/Untitled_HDR299-copy-lightbox.jpg" class="html5lightbox"><img src="images/Untitled_HDR299-copy.png" /></a>
+              </li>
+              <li><a href="images/Untitled_HDR2222-lightbox.jpg" class="html5lightbox"><img src="images/Untitled_HDR2222.png" /></a>
+              </li>
+              <li><a href="images/Untitled_HDRa4-lightbox.jpg" class="html5lightbox"><img src="images/Untitled_HDRa4.png" /></a>
+              </li>
+              <li><a href="images/Untitled_uuuHDR2-lightbox.jpg" class="html5lightbox"><img src="images/Untitled_uuuHDR2.png" /></a>
+              </li>
+          </ul>
+          <ul class="amazingslider-thumbnails" style="display:none;">
+              <li><img src="images/1-tn.jpg" alt="1" title="1" /></li>
+              <li><img src="images/4-tn.jpg" alt="4" title="4" /></li>
+              <li><img src="images/5-tn.jpg" alt="5" title="5" /></li>
+              <li><img src="images/burj2-tn.jpg" alt="burj2" title="burj2" /></li>
+              <li><img src="images/DSC_0403-tn.jpg" alt="DSC_0403" title="DSC_0403" /></li>
+              <li><img src="images/DSC_3210-tn.jpg" alt="DSC_3210" title="DSC_3210" /></li>
+              <li><img src="images/DSC_3235-tn.jpg" alt="DSC_3235" title="DSC_3235" /></li>
+              <li><img src="images/DSC_5252-tn.jpg" alt="DSC_5252" title="DSC_5252" /></li>
+              <li><img src="images/DSC_5279-tn.jpg" /></li>
+              <li><img src="images/DSC_5299-tn.jpg" /></li>
+              <li><img src="images/DSC_5311-tn.jpg" /></li>
+              <li><img src="images/DSC_9739-tn.jpg" /></li>
+              <li><img src="images/IMG_4293-tn.jpg" /></li>
+              <li><img src="images/Untitled_HDR2-tn.jpg" /></li>
+              <li><img src="images/Untitled_HDR299-copy-tn.jpg" /></li>
+              <li><img src="images/Untitled_HDR2222-tn.jpg" /></li>
+              <li><img src="images/Untitled_HDRa4-tn.jpg" /></li>
+              <li><img src="images/Untitled_uuuHDR2-tn.jpg" /></li>
+          </ul>
+      </div>
+  </div>
+
+  <!--nightPhotography ends-->
+
+</div>
+  <!--my images ends-->
   
 
 <!-- End page content -->
@@ -130,6 +224,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 
+<!--slider-->
+<script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+   
+    <script src="sliderengine/initslider-1.js"></script>
+<!--slider-->
 
 
 

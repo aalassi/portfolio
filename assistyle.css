@@ -68,11 +68,23 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
     text-align: right;
     background-color: rgb(28, 208, 214);
   }
+  #IMgallery {
+   color: white;
+    background-color: rgb(142, 30, 165);
+    max-width:1150px;
+  }
   .mySlides i {
       
       position: absolute;
       top: 45px;
       left: 0;
+  }
+
+  .mySlides p {
+    margin-left: auto;
+    margin-left: auto;
+    font-size: 35px;
+    min-height: 200px;
   }
   
   /* Add a pointer when hovering over the thumbnail images */
