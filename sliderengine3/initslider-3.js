@@ -3,11 +3,11 @@ jQuery(document).ready(function(){
     var jsFolder = "";
     for (var i= 0; i< scripts.length; i++)
     {
-        if( scripts[i].src && scripts[i].src.match(/initslider-2\.js/i))
+        if( scripts[i].src && scripts[i].src.match(/initslider-3\.js/i))
             jsFolder = scripts[i].src.substr(0, scripts[i].src.lastIndexOf("/") + 1);
     }
-    jQuery("#amazingslider-2").amazingslider({
-        sliderid:2,
+    jQuery("#amazingslider-3").amazingslider({
+        sliderid:3,
         jsfolder:jsFolder,
         width:600,
         height:360,

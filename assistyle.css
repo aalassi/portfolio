@@ -78,13 +78,21 @@ width: 100%;    font-size: 100px;
     display: none;
     text-align: right;
     border-radius: 20px 0 0 0;
-    background: linear-gradient(0deg, rgba(240,240,240,1) 0%, rgba(28,208,214,1) 100%);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(28,208,214,1) 100%);
   }
   #IMgallery {
    position: relative;
    color: white;
    border-radius: 20px 20px 0 0 ;
-   background: linear-gradient(0deg, rgba(240,240,240,1) 0%, rgba(142,30,165,1) 100%);
+   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(142,30,165,1) 100%);
+  }
+
+  #mixPhoto {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(252,176,69,1) 100%);
+    position: relative;
+    color: white;
+    border-radius: 20px 20px 0 0 ;
+
   }
 
   #portrait {
@@ -92,6 +100,28 @@ width: 100%;    font-size: 100px;
     border-radius: 20px 20px 0 0 ;
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(136,163,15,1) 100%);
   }
+
+  #designS {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(252,70,107,1) 100%);
+    position: relative;
+    color: white;
+    border-radius: 20px 20px 0 0 ;
+
+  }
+
+  #motionG {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(237,136,73,1) 100%);
+    position: relative;
+    color: white;
+    border-radius: 20px 20px 0 0 ;
+
+  }
+
+ 
+.miniH {
+  display: inline;
+}
+  
   .mySlides i {
       
       position: absolute;

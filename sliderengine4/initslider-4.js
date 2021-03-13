@@ -3,18 +3,18 @@ jQuery(document).ready(function(){
     var jsFolder = "";
     for (var i= 0; i< scripts.length; i++)
     {
-        if( scripts[i].src && scripts[i].src.match(/initslider-2\.js/i))
+        if( scripts[i].src && scripts[i].src.match(/initslider-4\.js/i))
             jsFolder = scripts[i].src.substr(0, scripts[i].src.lastIndexOf("/") + 1);
     }
-    jQuery("#amazingslider-2").amazingslider({
-        sliderid:2,
+    jQuery("#amazingslider-4").amazingslider({
+        sliderid:4,
         jsfolder:jsFolder,
         width:600,
         height:360,
         skinsfoldername:"",
         loadimageondemand:false,
         videohidecontrols:false,
-        fullwidth:false,
+        watermarktextcss:"font:12px Arial,Tahoma,Helvetica,sans-serif;color:#333;padding:2px 4px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;background-color:#fff;opacity:0.9;filter:alpha(opacity=90);",
         watermarkstyle:"text",
         playmutedandinlinewhenautoplay:false,
         donotresize:false,
@@ -23,8 +23,8 @@ jQuery(document).ready(function(){
         autoplayvideo:false,
         addmargin:true,
         watermarklinkcss:"text-decoration:none;font:12px Arial,Tahoma,Helvetica,sans-serif;color:#333;",
-        watermarktext:"amazingslider.com",
-        watermarklink:"http://amazingslider.com?source=watermark",
+        watermarktext:"Ahmad Al Assi",
+        watermarklink:"",
         transitiononfirstslide:false,
         forceflash:false,
         isresponsive:true,
@@ -32,11 +32,11 @@ jQuery(document).ready(function(){
         forceflashonie10:true,
         pauseonmouseover:false,
         playvideoonclickthumb:true,
-        showwatermark:false,
+        showwatermark:true,
         slideinterval:5000,
         watermarkpositioncss:"display:block;position:absolute;bottom:4px;right:4px;",
         watermarkimage:"",
-        watermarktextcss:"font:12px Arial,Tahoma,Helvetica,sans-serif;color:#333;padding:2px 4px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;background-color:#fff;opacity:0.9;filter:alpha(opacity=90);",
+        fullwidth:false,
         randomplay:false,
         watermarktarget:"_blank",
         scalemode:"fill",
