@@ -87,6 +87,14 @@ width: 100%;    font-size: 100px;
    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(142,30,165,1) 100%);
   }
 
+  #tvShow {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(237,230,73,1) 100%);
+    position: relative;
+    color: rgb(0, 0, 0);
+    border-radius: 20px 20px 0 0 ;
+
+  }
+
   #mixPhoto {
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(252,176,69,1) 100%);
     position: relative;
