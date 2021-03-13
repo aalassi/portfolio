@@ -71,7 +71,9 @@ width: 100%;    font-size: 100px;
     
   }
 
-  
+  .box-imgabout img{
+   border-radius: 10%;
+  }
   
   /* Hide the images by default */
   .mySlides {
@@ -94,6 +96,88 @@ width: 100%;    font-size: 100px;
     border-radius: 20px 20px 0 0 ;
 
   }
+  .academicbox {
+
+    display: flex;
+    flex-flow: column;
+    border: 3px solid  #459c98;
+    background-color:#459c98;
+    justify-content: space-around;
+    
+      padding: 20px;
+    
+
+}
+.academic-experience {
+  
+  padding: 5px;
+  background-color:#459c98;
+  color: #fff;
+
+}
+.academic-experience table {
+  width: 100%;
+}
+
+.professional table {
+  width: 100%;
+}
+
+.professional {
+  padding: 5px;
+ 
+  color: #459c98;
+}
+
+.aboutbox {
+  display: flex;
+ flex-flow: column;
+  color: #fff;
+ 
+  background-color: #459c98;
+  
+  
+  padding: 20px;
+  
+}
+.box-title1 {
+  text-align: right;
+
+font: 100 33px/1.2  'Brush Script MT', cursive;
+color: rgb(255, 255, 255);
+text-shadow: 3px 3px 3px rgb(102, 101, 101);
+
+padding-top: 10px;
+margin-top: -16px;
+background: rgb(69,156,152);
+background: linear-gradient(0deg, rgba(69,156,152,1) 0%, rgba(89,222,216,1) 100%) ;
+
+
+}
+.textabouot {
+  
+  align-self: center;
+     color: #fff;
+      font-size: 17px;
+      letter-spacing: 2px;
+  }
+  .flex3 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row;
+    color: #459c98;
+    
+    
+}
+@media screen and (max-width:600px) {
+  .flex3 {
+      display: block;}
+      .contactbox  {
+          display: block;}
+  
+  
+  }
+
 
   #mixPhoto {
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(252,176,69,1) 100%);
