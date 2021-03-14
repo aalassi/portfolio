@@ -168,7 +168,7 @@ background: linear-gradient(0deg, rgba(69,156,152,1) 0%, rgba(89,222,216,1) 100%
   align-self: center;
      color: #fff;
       font-size: 17px;
-      letter-spacing: 2px;
+     
   }
   .flex3 {
     display: flex;
