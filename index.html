@@ -18,12 +18,22 @@
 <link rel="stylesheet" type="text/css" href="sliderengine6/amazingslider-6.css">
 <!--slider-->
 
+<!--fvicon-->
+
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+<link id="favicon" rel="shortcut icon" href="favicon-16x16.png">
+<!--fv-->
+
 
 
 
 
 
 <body>
+
+ 
 
 <!-- Sidebar (hidden by default) -->
 <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
@@ -42,7 +52,9 @@
 </nav>
 
 <!-- Top menu -->
+<div class="white-top"></div>
 <div class="w3-top">
+ 
   <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
     <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
     <div class="w3-right w3-padding-16"><a href="http://www.facebook.com/assiphoto" class="fa fa-facebook"></a>
@@ -53,11 +65,19 @@
 
 
 
+<!--animation-->
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+<div class="content"></div>
   
+
+<!--animation-->
 <!-- !PAGE CONTENT! -->
 <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
 
   <!-- my content-->
+ 
 <div class="container" id="videos">
 
   <!-- Full-width images with number text -->
@@ -144,6 +164,7 @@
 <br>
 <br>
 <br>
+
  <span id="breakME" class="iconify" data-icon="si-glyph:scissor-line-cut" data-inline="false"></span>
  <br>
  <br>
@@ -599,7 +620,7 @@
         <br>
 
         <div class="container" id="about">
-          <i class='fas fa-video' style='font-size:60px'><span class="iconify" data-icon="cib:about-me" data-inline="false"></span></i><h3 class="miniH"> Über mich / About</h3>
+         <div class="meBK"> <i class='fas fa-video' style='font-size:60px'><span class="iconify" data-icon="cib:about-me" data-inline="false"></span></i><h3 class="miniH"> Über mich / About</h3></div>
 
           <section class="aboutbox">
             <a name="about">
@@ -735,7 +756,7 @@ Willkommen auf meiner kleinen Welt. Ich heiße Ahmad und bin in Abu Dhabi gebore
 </div>
 </section>
 
-</div>
+
 
 <div class="meMix">
   <img src="img/me2.jpg" width="200px">
@@ -743,6 +764,11 @@ Willkommen auf meiner kleinen Welt. Ich heiße Ahmad und bin in Abu Dhabi gebore
   <img src="img/me4.jpg" width="200px">
  
 </div>
+
+
+</div>
+
+
 
 
 
@@ -759,8 +785,15 @@ Willkommen auf meiner kleinen Welt. Ich heiße Ahmad und bin in Abu Dhabi gebore
         </div>
 </div>
 <!--my content-->
+<!--animation-->
+
+<!--animation-->
+<!-- scroll up button-->
+<button onclick="topFunction()" id="myBtn" title="Go to top"><span id="top" class="iconify" data-icon="bi:arrow-up-circle" data-inline="false"></span></button>
 
 
+
+<!--scroll up button ends-->
 
 
     
