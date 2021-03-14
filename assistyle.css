@@ -210,11 +210,12 @@ background: linear-gradient(0deg, rgba(69,156,152,1) 0%, rgba(89,222,216,1) 100%
     justify-content: space-evenly;
     flex-flow: wrap;
     background-color: #459c98;
+    padding: 20px;
   
   }
   .meMix img {
-    z-index:99 ;
-    width: 200px;
+    z-index:1 ;
+    width: 180px;
   }
 
   #designS {
@@ -353,6 +354,33 @@ background: linear-gradient(0deg, rgba(69,156,152,1) 0%, rgba(89,222,216,1) 100%
   background-color: rgb(255, 0, 0);
   color: white;
 }
+
+@media screen and (max-width:600px) {
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    z-index: 99;
+    font-size: 9px;
+    border: none;
+    outline: none;
+   
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+  }
+  
+  
+  }
+
+
 #top {
   font-size: 30px;
 }
@@ -431,4 +459,13 @@ h1 {
 .meBK {
   padding-left: 10px;
   background: linear-gradient(90deg, rgba(255,255,255,1) 48%, rgba(69,156,152,1) 100%);
+}
+
+.w3-top {
+  z-index: 2;
+}
+
+footer {
+  text-align: center;
+  color: white;
 }
