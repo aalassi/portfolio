@@ -85,6 +85,9 @@ width: 100%;    font-size: 100px;
     padding-left: 5px;
     color: white;
   }
+  .mySlides i {
+    padding-left: 7px;
+  }
   #IMgallery {
    position: relative;
    color: white;
