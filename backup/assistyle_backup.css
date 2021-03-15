@@ -80,7 +80,7 @@ width: 100%;    font-size: 100px;
     display: none;
     text-align: right;
     border-radius: 20px 0 0 0;
-    background-color: black;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(3,99,249,1) 100%);
     border: white solid 5px;
     padding-left: 5px;
     color: white;
@@ -89,14 +89,14 @@ width: 100%;    font-size: 100px;
    position: relative;
    color: white;
    border-radius: 20px 20px 0 0 ;
-   background-color: black;
+   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(142,30,165,1) 100%);
    border: white solid 5px;
   }
 
   #tvShow {
-    background-color: black;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(237,230,73,1) 100%);
     position: relative;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     border-radius: 20px 20px 0 0 ;
     border: white solid 5px;
 
@@ -105,8 +105,8 @@ width: 100%;    font-size: 100px;
 
     display: flex;
     flex-flow: column;
-    
-    background-color: black;
+    border: 3px solid  #459c98;
+    background-color:#459c98;
     justify-content: space-around;
     
       padding: 20px;
@@ -119,7 +119,7 @@ width: 100%;    font-size: 100px;
 .academic-experience {
   
   padding: 5px;
-  background-color: black;
+  background-color:#459c98;
   color: #fff;
 
 }
@@ -135,7 +135,7 @@ width: 100%;    font-size: 100px;
   padding: 20px;
  
   color: #ffffff;
-  background-color: black;
+    background-color: rgb(8, 177, 163);
 }
 
 .aboutbox {
@@ -144,7 +144,7 @@ width: 100%;    font-size: 100px;
   color: #fff;
  
  
-  background-color: black;
+  background-color: #459c98;
   
   
   padding: 20px;
@@ -159,8 +159,8 @@ text-shadow: 3px 3px 3px rgb(102, 101, 101);
 
 padding-top: 10px;
 margin-top: -16px;
-background-color: black;
-
+background: rgb(69,156,152);
+background: linear-gradient(0deg, rgba(69,156,152,1) 0%, rgba(89,222,216,1) 100%) ;
 
 
 }
@@ -177,7 +177,7 @@ background-color: black;
     flex-flow: row;
     padding: 20px;
     color: #ffffff;
-    background-color: black;
+    background-color: rgb(8, 177, 163);
   
     
     
@@ -193,7 +193,7 @@ background-color: black;
 
 
   #mixPhoto {
-    background-color: black;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(252,176,69,1) 100%);
     position: relative;
     color: white;
     border-radius: 20px 20px 0 0 ;
@@ -205,14 +205,14 @@ background-color: black;
   #portrait {
     color: white;
     border-radius: 20px 20px 0 0 ;
-    background-color: black;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(136,163,15,1) 100%);
     border: white solid 5px;
   }
   .meMix {
     display: flex;
     justify-content: space-evenly;
     flex-flow: wrap;
-    background-color: black;
+    background-color: #459c98;
     padding: 20px;
   
   }
@@ -233,7 +233,7 @@ background-color: black;
     }
 
   #designS {
-    background-color: black;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(252,70,107,1) 100%);
     position: relative;
     color: white;
     border-radius: 20px 20px 0 0 ;
@@ -243,7 +243,7 @@ background-color: black;
   }
 
   #motionG {
-    background-color: black;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(237,136,73,1) 100%);
     position: relative;
     color: white;
     border-radius: 20px 20px 0 0 ;
@@ -365,7 +365,7 @@ background-color: black;
 }
 
 #myBtn:hover {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 0, 0);
   color: white;
 }
 
@@ -387,7 +387,7 @@ background-color: black;
   }
   
   #myBtn:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
     color: white;
   }
   
@@ -472,9 +472,7 @@ h1 {
 
 .meBK {
   padding-left: 10px;
-  background-color: black;
-  color: white;
-  border-radius: 20px 20px 0 0 ;
+  background: linear-gradient(90deg, rgba(255,255,255,1) 48%, rgba(69,156,152,1) 100%);
 }
 
 .w3-top {
